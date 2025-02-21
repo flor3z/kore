@@ -1,9 +1,25 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Links from './Links';
 import { CiMenuBurger } from 'react-icons/ci';
 
 const NavLinks = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const refEl = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const closeOnOutsideClick = (event: any) => {
+      if (!refEl.current) {
+        return;
+      }
+      if (!refEl.current?.contains(event.target)) {
+        setIsNavOpen(false);
+      }
+    };
+
+    document.addEventListener('click', closeOnOutsideClick, true);
+
+    return () => document.removeEventListener('click', closeOnOutsideClick);
+  }, []);
+
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
@@ -21,7 +37,10 @@ const NavLinks = () => {
         </div>
       </nav>
       {isNavOpen ? (
-        <div className="flex flex-col items-center justify-center basis-full md:hidden transition transform duration-100 ease-in-out">
+        <div
+          ref={refEl}
+          className="flex flex-col items-center justify-center basis-full md:hidden transition transform duration-100 ease-in-out"
+        >
           <Links />
         </div>
       ) : null}
