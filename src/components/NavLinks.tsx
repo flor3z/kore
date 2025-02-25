@@ -1,24 +1,14 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
+import useOutsideClick from '../hooks/useOutsideClick';
 import Links from './Links';
 import { CiMenuBurger } from 'react-icons/ci';
 
 const NavLinks = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const refEl = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const closeOnOutsideClick = (event: any) => {
-      if (!refEl.current) {
-        return;
-      }
-      if (!refEl.current?.contains(event.target)) {
-        setIsNavOpen(false);
-      }
-    };
 
-    document.addEventListener('click', closeOnOutsideClick, true);
-
-    return () => document.removeEventListener('click', closeOnOutsideClick);
-  }, []);
+  const refEl = useOutsideClick(() => {
+    setIsNavOpen(false);
+  });
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
