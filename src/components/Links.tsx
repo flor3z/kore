@@ -43,6 +43,18 @@ const Links = () => {
           </div>
         </div>
       </NavLink>
+      <NavLink
+        to="/testimonials"
+        className={({ isActive }) =>
+          isActive ? `${standardStyling} text-blue-500` : standardStyling
+        }
+      >
+        <div className="relative py-2">
+          <div className="inline-block relative no-underline after-line">
+            Testimonials
+          </div>
+        </div>
+      </NavLink>
     </>
   );
 };
