@@ -5,11 +5,14 @@ import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
 import { Routes, Route } from 'react-router';
 import Testimonials from './components/pages/Testimonials';
+import Footer from './components/Footer';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   return (
     <>
       <NavBar />
+      <ScrollToTopButton />
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
@@ -17,6 +20,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="testimonials" element={<Testimonials />} />
       </Routes>
+      <Footer />
     </>
   );
 }

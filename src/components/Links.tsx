@@ -12,10 +12,8 @@ const Links = () => {
           isActive ? `${standardStyling} text-blue-500` : standardStyling
         }
       >
-        <div className="relative py-2">
-          <div className="inline-block relative no-underline after-line">
-            About
-          </div>
+        <div className=" py-2">
+          <div className="  no-underline after-line">About</div>
         </div>
       </NavLink>
 
@@ -25,10 +23,8 @@ const Links = () => {
           isActive ? `${standardStyling} text-blue-500` : standardStyling
         }
       >
-        <div className="relative py-2">
-          <div className="inline-block relative no-underline after-line">
-            Services
-          </div>
+        <div className=" py-2">
+          <div className="  no-underline after-line">Services</div>
         </div>
       </NavLink>
       <NavLink
@@ -37,10 +33,8 @@ const Links = () => {
           isActive ? `${standardStyling} text-blue-500` : standardStyling
         }
       >
-        <div className="relative py-2">
-          <div className="inline-block relative no-underline after-line">
-            Contact
-          </div>
+        <div className=" py-2">
+          <div className="  no-underline after-line">Contact</div>
         </div>
       </NavLink>
       <NavLink
@@ -49,10 +43,8 @@ const Links = () => {
           isActive ? `${standardStyling} text-blue-500` : standardStyling
         }
       >
-        <div className="relative py-2">
-          <div className="inline-block relative no-underline after-line">
-            Testimonials
-          </div>
+        <div className=" py-2">
+          <div className="  no-underline after-line">Testimonials</div>
         </div>
       </NavLink>
     </>

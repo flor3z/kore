@@ -17,9 +17,13 @@ const NavLinks = () => {
   return (
     <>
       <nav className="w-1/3 flex justify-end">
-        <div className="w-10 h-10 text-2xl md:hidden">
+        <div className="w-10 h-10 md:hidden">
           <button onClick={toggleNav} className="cursor-pointer text-3xl">
-            {isNavOpen ? <span>X</span> : <CiMenuBurger />}
+            {isNavOpen ? (
+              <span className="w-10 h-10">X</span>
+            ) : (
+              <CiMenuBurger />
+            )}
           </button>
         </div>
         <div className="w-full hidden md:flex justify-between">
