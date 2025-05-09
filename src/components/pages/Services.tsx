@@ -1,11 +1,11 @@
 const Services = () => {
   return (
-    <section>
+    <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center mb-10 mt-10">
-        <h1 className="font-heading font-light text-6xl md:text-8xl tracking-wider drop-shadow-md">
+        <h1 className="font-heading font-light text-5xl md:text-6xl tracking-wider ">
           Our Services
         </h1>
-        <div className="h-1 w-60 bg-black mt-5 mb-5"></div>
+        <div className="h-1 w-60 bg-purple-300 mt-5 mb-5"></div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 border-red-400 shadow gap-x-3 gap-y-4 mx-10">
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
@@ -21,7 +21,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -37,7 +37,7 @@ const Services = () => {
               Lips,Temples,Cheeks, Jawline, Nasolabial Folds, Marionette Lines.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -52,7 +52,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -67,7 +67,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -82,7 +82,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -97,7 +97,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -112,7 +112,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
         <div className="flex justify-evenly bg-gray-100 min-h-[300px] mx-4 my-4  min-w-60 rounded-sm shadow-md px-2 py-2">
           <div className="w-1/2">
@@ -127,7 +127,7 @@ const Services = () => {
               Smooth Out Wrinkles, Relieve Pain and Reduce Excessive Sweating.
             </p>
           </div>
-          <div className="w-1/2 bg-blue-950 text-white">Image</div>
+          <div className="w-1/2 bg-purple-300 text-white">Image</div>
         </div>
       </div>
     </section>

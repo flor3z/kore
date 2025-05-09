@@ -1,4 +1,3 @@
-import testimg from '../../assets/TestIMG.jpg';
 import HowItWorks from '../HowItWorks';
 
 const Home = () => {
@@ -24,11 +23,6 @@ const Home = () => {
       </header>
       <section>
         <div className="bg-custom-image h-96 flex flex-col text-center items-center justify-center bg-cover bg-center opacity-95 bg-gray-800 bg-blend-overlay  bg-no-repeat">
-          {/* <img
-            className="justify-center h-80 w-full bg-cover"
-            alt="img"
-            src={testimg}
-          /> */}
           <p className=" text-white font-heading font-light text-left text-md  md:text-3xl max-w-md border-white border-2 mt-5 p-5">
             Embodied with foundational knowledge, our expertise lies in precise
             analysis of the skin to bring you a long lasting, rejuvinating

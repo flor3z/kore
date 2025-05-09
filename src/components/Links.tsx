@@ -1,15 +1,14 @@
 import { NavLink } from 'react-router';
 
 const Links = () => {
-  const standardStyling =
-    'font-heading w-full flex justify-center italic text-xl';
+  const standardStyling = 'font-heading w-full flex justify-center  text-xl';
 
   return (
     <>
       <NavLink
         to="/about"
         className={({ isActive }) =>
-          isActive ? `${standardStyling} text-blue-500` : standardStyling
+          isActive ? `${standardStyling} text-purple-400` : standardStyling
         }
       >
         <div className=" py-2">
@@ -20,7 +19,7 @@ const Links = () => {
       <NavLink
         to="/services"
         className={({ isActive }) =>
-          isActive ? `${standardStyling} text-blue-500` : standardStyling
+          isActive ? `${standardStyling} text-purple-400` : standardStyling
         }
       >
         <div className=" py-2">
@@ -30,7 +29,7 @@ const Links = () => {
       <NavLink
         to="/contact"
         className={({ isActive }) =>
-          isActive ? `${standardStyling} text-blue-500` : standardStyling
+          isActive ? `${standardStyling} text-purple-400` : standardStyling
         }
       >
         <div className=" py-2">
@@ -40,7 +39,7 @@ const Links = () => {
       <NavLink
         to="/testimonials"
         className={({ isActive }) =>
-          isActive ? `${standardStyling} text-blue-500` : standardStyling
+          isActive ? `${standardStyling} text-purple-400` : standardStyling
         }
       >
         <div className=" py-2">

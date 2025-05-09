@@ -21,7 +21,7 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <div>
+    <div className="fade-in">
       {backToTopButton && (
         <button
           onClick={scrollUp}

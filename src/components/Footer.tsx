@@ -11,38 +11,7 @@ const Footer = () => {
         {/* Component */}
         <div className="flex-col flex items-center">
           <Logo />
-          <div className="text-center font-semibold">
-            <a
-              href="#"
-              className="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600"
-            >
-              Features
-            </a>
-            <a
-              href="#"
-              className="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600"
-            >
-              Works
-            </a>
-            <a
-              href="#"
-              className="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600"
-            >
-              Support
-            </a>
-            <a
-              href="#"
-              className="inline-block px-6 py-2 font-normal text-black transition hover:text-blue-600"
-            >
-              Help
-            </a>
-          </div>
+
           <div className="mb-8 mt-8 border-b border-gray-300 w-48"></div>
           <div className="mb-12 grid-cols-3 grid-flow-col grid max-w-52 gap-12 mx-auto">
             <a

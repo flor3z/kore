@@ -22,7 +22,7 @@ const HowItWorks = () => {
               <h2 className="text-3xl font-heading">1</h2>
             </div>
             <div className="ml-6 md:ml-0">
-              <h2 className="mb-5 text-xl font-heading md:mt-8">Assesment</h2>
+              <h2 className="mb-5 text-xl font-heading md:mt-8">Assessment</h2>
               <p className="font-inter max-w-md pr-5 text-base text-gray-500">
                 Initial assesment provides for an overview of what services may
                 be required for customers interested in our procedures.
@@ -37,7 +37,7 @@ const HowItWorks = () => {
             </div>
             <div className="ml-6 md:ml-0">
               <h2 className="mb-5 text-xl font-heading md:mt-8">
-                Consulatation
+                Consultation
               </h2>
               <p className="font-inter max-w-md pr-5 text-base text-gray-500">
                 Here we advise of the ideal treaments and pricing to best match
@@ -55,8 +55,8 @@ const HowItWorks = () => {
               <h2 className="mb-5 text-xl font-heading md:mt-8">Procedure</h2>
               <p className="font-inter max-w-md pr-5 text-base text-gray-500">
                 Finally, we undergo the requested services using our industry
-                leading equpiment and products to provide an exceptional
-                experience for our clientle.
+                leading medical grade equipment and products to provide an
+                exceptional experience for our clientle.
               </p>
             </div>
           </div>
